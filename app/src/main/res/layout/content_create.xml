@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context="com.poplitou.orderpager.activities.CreateOrderActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_marginTop="?attr/actionBarSize"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/create_ticket"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="@dimen/baseline"
+            style="@style/TextAppearance.AppCompat.Large"
+            android:text="@string/create_ticket" />
+
+        <TextView
+            android:id="@+id/create_ticket_num"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginBottom="@dimen/baseline"
+            style="@style/TextAppearance.AppCompat.Display4"
+            android:text="@string/number_zero"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/item_height"
+        android:background="@android:color/white"
+        android:orientation="horizontal"
+        android:layout_marginLeft="@dimen/baseline"
+        android:layout_marginRight="@dimen/baseline">
+
+        <LinearLayout
+            android:id="@+id/create_cafe_layout"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <CheckBox
+                android:id="@+id/create_cafe_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="false"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cafe"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/create_deli_layout"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <CheckBox
+                android:id="@+id/create_deli_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="false"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Deli"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/create_kitchen_layout"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <CheckBox
+                android:id="@+id/create_kitchen_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="false"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kitchen"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <com.poplitou.orderpager.views.NumpadView
+        android:id="@+id/create_numpad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/create_submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/baseline"
+        android:layout_marginRight="@dimen/baseline"
+        android:layout_marginBottom="@dimen/baseline"
+        android:textColor="@android:color/white"
+        android:background="@drawable/submit_button_bg"
+        android:elevation="0dp"
+        android:text="@string/create_submit"/>
+
+</LinearLayout>

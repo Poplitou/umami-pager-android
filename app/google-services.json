@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "558408181612",
+    "firebase_url": "https://umami-shop.firebaseio.com",
+    "project_id": "umami-shop",
+    "storage_bucket": "umami-shop.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:558408181612:android:ab45ace1e30a7cb2",
+        "android_client_info": {
+          "package_name": "ca.umamishop.orderpager"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "558408181612-vip4bmdt9h6289lrsdagm7g4kmregc63.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4YYVy7r8op6uKK6ViZu4ToPxvmajQJGw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:558408181612:android:0a4abaad27160357",
+        "android_client_info": {
+          "package_name": "com.poplitou.orderpager"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "558408181612-vip4bmdt9h6289lrsdagm7g4kmregc63.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4YYVy7r8op6uKK6ViZu4ToPxvmajQJGw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

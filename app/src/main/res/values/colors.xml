@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FF9100</color>
+    <color name="colorPrimaryDark">#FF6D00</color>
+    <color name="colorAccent">#DD2C00</color>
+
+    <!--Intro-->
+    <color name="colorPrompt">#78909C</color>
+    <color name="colorPromptDark">#455A64</color>
+
+    <!--Text-->
+    <color name="colorTitle">#222222</color>
+    <color name="colorSubtitle">#999999</color>
+
+    <!--Order Item-->
+    <color name="colorItemSwipedGreen">#2f8b2a</color>
+    <color name="colorItemSwipedRed">#F44336</color>
+    <color name="colorItemNormal">#FFFFFF</color>
+
+    <!--Numpad-->
+    <color name="numpadBackground">#FFFFFF</color>
+    <color name="numpadBackgroundPressed">#E0E0E0</color>
+
+    <color name="submitBackgroundDisabled">#BDBDBD</color>
+</resources>

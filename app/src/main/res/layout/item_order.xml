@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/item_order_background"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/item_height"
+    android:background="@drawable/background_item_swiped_green"
+    style="@style/CommonListItemStyle" >
+
+    <RelativeLayout
+        android:id="@+id/item_order_container"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/item_height"
+        android:foreground="?attr/selectableItemBackground"
+        android:paddingTop="8dp"
+        android:paddingRight="16dp"
+        android:paddingLeft="16dp"
+        android:paddingBottom="8dp"
+        android:background="@color/colorItemNormal"
+        android:clickable="true"
+        android:focusable="true"
+        tools:ignore="UselessParent"
+        android:layout_gravity="center_vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:id="@+id/linearLayout">
+
+            <TextView
+                android:id="@+id/item_order_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/TextAppearance.AppCompat.Large" />
+
+            <TextView
+                android:id="@+id/item_order_timer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/TextAppearance.AppCompat.Small" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true">
+            <android.support.v7.widget.AppCompatImageButton
+                android:id="@+id/item_order_btn_kitchen"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_restaurant"
+                android:visibility="gone"/>
+            <android.support.v7.widget.AppCompatImageButton
+                android:id="@+id/item_order_btn_deli"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_deli"
+                android:visibility="gone"/>
+            <android.support.v7.widget.AppCompatImageButton
+                android:id="@+id/item_order_btn_cafe"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_cafe"
+                android:visibility="gone"/>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/item_order_done"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_check"
+            android:tint="@android:color/black"
+            android:layout_alignParentEnd="false"
+            android:layout_alignParentRight="true"
+            style="@style/TextAppearance.AppCompat.Small"
+            android:layout_centerVertical="true"
+            android:visibility="gone"/>
+
+    </RelativeLayout>
+
+
+</FrameLayout>
